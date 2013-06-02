@@ -4,7 +4,13 @@ A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-FIXME
+Install leiningen
+
+Run this to make stuff happen:
+    lein repl
+    (use 'vertunity.core)
+    (def words (all-words "http://doitgreen.org/"))
+    (spit "doitgreen.org.html" (build-page (take 100 (reverse (sort-by second (frequencies words))))))
 
 ## License
 
