@@ -1,6 +1,6 @@
-# vertunity
+# Vertunity
 
-A Clojure library designed to ... well, that part is up to you.
+Some sample code for our National Day of Civic Hacking group.
 
 ## Usage
 
